@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h3>我当前的数量：<span>0</span></h3>
+      <button>+1</button>
+      <button>-1</button>
+    </div>
+    <script src="node_modules/redux/dist/redux.js"></script>
+    <script>
+      // redux中action的概念
+      // 1. action是一个动作或者行为的抽象
+      // 2. 使用一个对象来表示一个action
+      // 3. 每一个action有一个唯一的标识 type
+      // 4. action除了type之外，还可以有其他的属性，用来提供额外的数据。
+
+      // add叫做action creator: 作用：创建action
+      const add = () => {
+        return {
+          type: 'add_todo',
+        }
+      }
+
+      // const action = {
+      //   type: 'SUB',
+      // }
+
+      // // 添加任务
+      // const action2 = {
+      //   type: 'ADD_TODO',
+      //   name: '吃饭',
+      // }
+
+      // // 删除任务
+      // const action3 = {
+      //   type: 'DEL_TODO',
+      //   id: 5,
+      // }
+
+      // action creator: 专家  领导
+      const delTodo = (id) => ({ type: 'DEL_TODO', id })
+
+      console.log(delTodo(5))
+    </script>
+  </body>
+</html>
