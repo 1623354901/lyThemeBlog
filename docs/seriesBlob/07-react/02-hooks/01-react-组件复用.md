@@ -1,3 +1,4 @@
+# react组件复用
 # mixins（已废弃）
 
 > https://react.docschina.org/blog/2016/07/13/mixins-considered-harmful.html
