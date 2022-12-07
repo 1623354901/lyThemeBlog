@@ -118,7 +118,11 @@ module.exports = {
           },
         ]
       },
-
+      {
+        'text':'关于',
+        'link':'/README',
+        'icon':'reco-account'
+      },
       // {
       //   "text": "TimeLine",
       //   "link": "/timeline/",
