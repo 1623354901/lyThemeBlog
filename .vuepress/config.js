@@ -152,15 +152,15 @@ module.exports = {
       }
     ],
 
-    "sidebar": {
-      "/docs/theme-reco/": [
-        "git初始化配置"
-        // "",
-        // "theme",
-        // "plugin",
-        // "api"
-      ]
-    },
+    // "sidebar": {
+    //   "/docs/theme-reco/": [
+    //     "git初始化配置"
+    //     // "",
+    //     // "theme",
+    //     // "plugin",
+    //     // "api"
+    //   ]
+    // },
     "type": "blog",
     "blogConfig": {
       "category": {
