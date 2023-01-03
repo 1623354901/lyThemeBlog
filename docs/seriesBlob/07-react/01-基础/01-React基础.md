@@ -1,6 +1,7 @@
+# react基础
 # 课程安排
 
-![image-20210816173421106](images/image-20210816173421106.png)
+![image-20210816173421106](./images/image-20210816173421106.png)
 
 # React 概述
 
@@ -238,7 +239,7 @@ ReactDOM.render(title, document.getElementById('root'))
 
 + 安装插件
 
-![image-20200907165515629](images/image-20200907165515629-1629115818044.png)
+![image-20200907165515629](./images/image-20200907165515629-1629115818044.png)
 
 + 添加prettier的配置
 

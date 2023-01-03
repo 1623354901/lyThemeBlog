@@ -7,7 +7,7 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
-    "vuepress": "1.9.7",
+    "vuepress": "^1.9.7",
     "vuepress-theme-reco": "1.6.16"
   },
   "description": ""

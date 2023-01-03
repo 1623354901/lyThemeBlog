@@ -2,7 +2,7 @@
 home: true
 heroText: 卢莹的个人博客
 tagline: 要努力，要幸运.
-# heroImage: /hero.png
+# heroImage: /6.jpg
 # heroImageStyle: {
 #   maxWidth: '600px',
 #   width: '100%',
@@ -11,8 +11,10 @@ tagline: 要努力，要幸运.
 #   background: '#fff',
 #   borderRadius: '1rem',
 # }
+# 主背景图
+bgImage: '/7.jpg'
 bgImageStyle: {
-  height: '450px'
+  height: '450px',
 }
 isShowTitleInHome: false
 actionText: Guide
@@ -25,10 +27,3 @@ features:
 - title: Tomorrow
   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 ---
-
-
-封装接口
-==和===，
-flex:1和width200
-href和src
-src:资源，下载到自己，会阻断dom
