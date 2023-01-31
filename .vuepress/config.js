@@ -119,10 +119,22 @@ module.exports = {
         ]
       },
       {
-        'text':'关于',
-        'link':'/README',
-        'icon':'reco-account'
+        'text':'uniapp相关',items:[
+          {
+            'text':'uniapp基础',
+            'link':'/docs/seriesBlob/08-uniapp/uniapp基础知识',
+          },
+          {
+            'text':'uniapp应用案例',
+            'link':'/docs/seriesBlob/08-uniapp/黑马商城',
+          }
+        ]
       },
+      // {
+      //   'text':'关于',
+      //   'link':'/README/',
+      //   'icon':'reco-account'
+      // },
       // {
       //   "text": "TimeLine",
       //   "link": "/timeline/",
@@ -164,7 +176,7 @@ module.exports = {
     "type": "blog",
     "blogConfig": {
       "category": {
-        "location": 5,
+        "location":6,
         "text": "分类"
       },
       // "tag": {
