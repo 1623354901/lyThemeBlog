@@ -65,8 +65,8 @@ module.exports = {
               { text: '06-组件通信', link: '/docs/seriesBlob/06-vue/Day04_vue组件_组件通信_todo案例' },
               { text: '07-生命周期_组件进阶', link: '/docs/seriesBlob/06-vue/Day05_生命周期_组件进阶' },
               { text: '08-动态组件_插槽_自定义指令', link: '/docs/seriesBlob/06-vue/Day06_动态组件_插槽_自定义指令_tabbar案例' },
-              { text: '09-路由_vant组件库使用', link: '/blog/06-vue/Day07_路由_vant组件库使用' },
-              // { text: 'Vuex', link: '/blog/06-vue/vuex' },
+              { text: '09-路由_vant组件库使用', link: '/docs/seriesBlob/06-vue/Day07_路由_vant组件库使用' },
+              // { text: 'Vuex', link: '/blog/06-vue/vuex' },docs\seriesBlob\06-vue\Day07_路由_vant组件库使用.md
             ]
           },
           { text: 'Vuex基础', link: '/docs/seriesBlob/06-vue/vuex' },
