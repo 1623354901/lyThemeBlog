@@ -2,9 +2,9 @@
 title: Vue实现tabs左右可切换，自适应宽度
 date: 2022-12-28
 tags:
-  - Vue
+    - Vue
 categories:
-  - Vue实例
+    - Vue实例
 publish: true
 ---
 
@@ -18,7 +18,9 @@ publish: true
 :::
 
 ## 思路
+
 视图部分：
+
 ```vue
 <div id="box" class="box">
       <div
@@ -59,8 +61,10 @@ publish: true
       </div>
     </div>
 ```
+
 数据部分：
-```vue
+
+```js
 //后期tabslist、需要通过组件传进来
 data() {
     return {
@@ -82,8 +86,10 @@ data() {
     };
   },
 ```
+
 功能部分：
-```vue
+
+```js
 mounted() {
     this.getTabWidth();
     this.setDisplayTab(0);
@@ -153,52 +159,54 @@ methods: {
     }
 }
 ```
+
 样式部分：
-```vue
+
+```css
 .box {
-  width: 100%;
-  padding: 0 30px;
-  //   min-width: 535px;
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  position: relative;
-  .good_city {
-    width: 9999px; //这里其实不应该写死 应该写成动态赋值 这里我就先写死
-    height: 30px;
-    transition: all 0.5s;
-  }
-  .tabsBox {
-    width: 9999px;
-    height: 30px;
+    width: 100%;
+    padding: 0 30px;
+    //   min-width: 535px;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
+    justify-content: space-between;
     overflow: hidden;
-    .tab {
-      height: 30px;
-      //   min-width: 84px;
-      padding: 0px 8px;
-      margin: 0 5px;
-      line-height: 30px;
-      border: 1px solid #bbbbbb;
-      cursor: pointer;
-      text-align: center;
-      float: left;
-      //   flex-shrink: 1;
+    position: relative;
+    .good_city {
+        width: 9999px; //这里其实不应该写死 应该写成动态赋值 这里我就先写死
+        height: 30px;
+        transition: all 0.5s;
     }
-    .tabClick {
-      background: #3e79fe;
-      color: #ffffff;
+    .tabsBox {
+        width: 9999px;
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        .tab {
+            height: 30px;
+            //   min-width: 84px;
+            padding: 0px 8px;
+            margin: 0 5px;
+            line-height: 30px;
+            border: 1px solid #bbbbbb;
+            cursor: pointer;
+            text-align: center;
+            float: left;
+            //   flex-shrink: 1;
+        }
+        .tabClick {
+            background: #3e79fe;
+            color: #ffffff;
+        }
     }
-  }
-  .icon {
-    text-align: center;
-    line-height: 30px;
-    padding: 0 8px;
-    cursor: pointer;
-    background-color: white;
-    z-index: 10000;
-  }
+    .icon {
+        text-align: center;
+        line-height: 30px;
+        padding: 0 8px;
+        cursor: pointer;
+        background-color: white;
+        z-index: 10000;
+    }
 }
 ```
