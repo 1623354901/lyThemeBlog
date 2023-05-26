@@ -23,3 +23,6 @@ publish: true
 //6-12位数字、字母或组合
 '/^[a-zA-Z0-9]{6,12}$/'
 ```
+
+[讲解:](http://c.biancheng.net/view/5632.html)
+http://c.biancheng.net/view/5632.html
