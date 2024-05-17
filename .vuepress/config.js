@@ -78,6 +78,10 @@ module.exports = {
               { text: "AJAX基础", link: "/docs/seriesBlob/10-ajax/ajax" },
             ],
           },
+          {
+            text: "GIT",
+            items: [{ text: "GIT基础", link: "/docs/seriesBlob/11-Git/git" }],
+          },
         ],
       },
       {
@@ -127,6 +131,28 @@ module.exports = {
           },
           { text: "Vuex基础", link: "/docs/seriesBlob/06-vue/vuex" },
           { text: "Vue3基础", link: "/docs/seriesBlob/06-vue/vue3" },
+        ],
+      },
+      {
+        text: "Node",
+        items: [
+          {
+            text: "Node相关",
+            items: [
+              {
+                text: "Node.js与内置模块",
+                link: "/docs/seriesBlob/12-node/Node.js与内置模块",
+              },
+              {
+                text: "模块化",
+                link: "/docs/seriesBlob/12-node/模块化",
+              },
+              {
+                text: "express",
+                link: "/docs/seriesBlob/12-node/express",
+              },
+            ],
+          },
         ],
       },
       {

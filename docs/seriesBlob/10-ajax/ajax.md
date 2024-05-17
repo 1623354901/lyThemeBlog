@@ -1,3 +1,13 @@
+---
+title: Ajax
+date: 2023-05-12
+tags:
+  - Ajax
+categories:
+  - Ajax
+publish: true
+---
+
 > Ajax
 
 # 一、jquery 中的 ajax
