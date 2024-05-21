@@ -1,3 +1,7 @@
+// const {
+//   registerComponentsPlugin,
+// } = require("@vuepress/plugin-register-components");
+// const path = require("path");
 module.exports = {
   title: "前端加油站",
   description: "卢卢的前端知识库",
@@ -146,6 +150,10 @@ module.exports = {
               {
                 text: "模块化",
                 link: "/docs/seriesBlob/12-node/模块化",
+              },
+              {
+                text: "数据库与身份认证",
+                link: "/docs/seriesBlob/12-node/数据库与身份认证",
               },
               {
                 text: "express",
@@ -371,4 +379,10 @@ module.exports = {
       lang: "zh-CN",
     },
   },
+  // plugins: [
+  //   registerComponentsPlugin({
+  //     // 配置项
+  //     componentsDir: path.resolve(__dirname, "./components"),
+  //   }),
+  // ],
 };
