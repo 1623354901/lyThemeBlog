@@ -286,6 +286,27 @@ module.exports = {
           },
         ],
       },
+      {
+        text: "面试相关",
+        items: [
+          {
+            text: "前端面试手册",
+            link: "/docs/seriesBlob/13-面试/前端面试手册",
+          },
+          {
+            text: "2023前端面试上岸手册-八股文",
+            link: "/docs/seriesBlob/13-面试/2023前端面试上岸手册-八股文",
+          },
+          // {
+          //   text: "2023React高频面试题讲解",
+          //   link: "/docs/seriesBlob/13-面试/2023React高频面试题讲解",
+          // },
+          {
+            text: "P8大佬的算法解题笔记",
+            link: "/docs/seriesBlob/13-面试/P8大佬的算法解题笔记",
+          },
+        ],
+      },
       // {
       //   'text':'关于',
       //   'link':'/README/',
@@ -312,7 +333,7 @@ module.exports = {
         items: [
           {
             text: "GitHub",
-            link: "https://github.com/recoluan",
+            link: "https://github.com/1623354901",
             icon: "reco-github",
           },
           {
