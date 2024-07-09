@@ -307,6 +307,15 @@ module.exports = {
           },
         ],
       },
+      {
+        text: "python",
+        items: [
+          {
+            text: "python",
+            link: "/docs/seriesBlob/14-python/python",
+          },
+        ],
+      },
       // {
       //   'text':'关于',
       //   'link':'/README/',
@@ -331,6 +340,11 @@ module.exports = {
         text: "相关链接",
         icon: "reco-message",
         items: [
+          {
+            text: "Gitee",
+            link: "https://gitee.com/devilly",
+            icon: "reco-gitee",
+          },
           {
             text: "GitHub",
             link: "https://github.com/1623354901",

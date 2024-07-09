@@ -2,10 +2,10 @@
 title: vue+antDesignVue实现穿梭框及父子级联动
 date: 2023-04-20
 tags:
-    - Vue
+  - Vue
 categories:
-    - Vue实例
-    - 中金
+  - Vue实例
+  - 中金
 publish: true
 ---
 
@@ -61,7 +61,7 @@ publish: true
 
 3、方法：
 
-```
+```js
 open(item) {
       this.visible = true
       const _this = this
